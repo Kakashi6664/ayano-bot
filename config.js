@@ -11,18 +11,18 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['201153573240', '👑 Mystic - Creador 👑', true],
+  ['201112422078', '👑 Mystic - Creador 👑', true],
 ];
 
-global.suittag = ['201153573240'];
-global.prems = ['201153573240'];
+global.suittag = ['201112422078'];
+global.prems = ['201112422078'];
 
 global.packname = 'Sticker';
-global.author = '=𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘 -𝚋𝚘𝚝 ';
-global.wm = '𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘 - Bot';
-global.titulowm = '𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘 - 𝚋𝚘𝚝';
-global.titulowm2 = `𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘 - 𝚋𝚘𝚝`
-global.igfg = '𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘 - 𝚋𝚘𝚝';
+global.author = '=𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃 ';
+global.wm = '𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃';
+global.titulowm = '𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃';
+global.titulowm2 = `𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃`
+global.igfg = '𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃';
 global.wait = '*[ ⏳ ] تَحْميل...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -43,15 +43,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘 -𝚋𝚘𝚝 `;
-global.gt = '𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘 - Bot';
-global.mysticbot = '𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘 - 𝚋𝚘𝚝';
+global.wm2 = `${dia} ${fecha}\𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃 `;
+global.gt = '𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃';
+global.mysticbot = '𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '201153573240';
+global.nomorown = '201112422078'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
