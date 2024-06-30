@@ -34,7 +34,7 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(900) 
   const taguser = '@' +  m.sender.split('@s.whatsapp.net')[0];
-let str = ` 𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘
+let str = ` 𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃
 
  *مرحبا,* ${taguser}
 
@@ -177,7 +177,7 @@ let str = ` 𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘
 ┛──⏣──━━──⏣──┗
 *_❍↚ المطور_*
 
-𝚃𝚛𝚊𝚏𝚊𝚕𝚐𝚊𝚛 𝙻𝚊𝚘
+𝙰𝚈𝙰𝙽𝙾𝙺𝙾𝚄𝙹𝙸 𝙱𝙾𝚃
 
 `.trim();
     
