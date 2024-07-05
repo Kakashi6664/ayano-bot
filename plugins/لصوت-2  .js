@@ -1,20 +1,14 @@
-
-import { toAudio } from '../lib/converter.js'
-
-let handler = async (m, { conn, usedPrefix, command }) => {
-    let q = m.quoted ? m.quoted : m
-    let mime = (q || q.msg).mimetype || q.mediaType || ''
-    if (!/video|audio/.test(mime)) throw `رد على فيديو أو مذكرة صوتية تريد تحويلها إلى صوت/MP3 باستخدام الأمر *${usedPrefix + command}*`
-    let media = await q.download()
-    if (!media) throw 'لا يمكن تحميل الوسائط'
-    let audio = await toAudio(media, 'mp4')
-    if (!audio.data) throw 'لا يمكن تحويل الوسائط إلى صوت'
-    conn.sendMessage(m.chat, { audio: audio.data,  mimetype: 'audio/mpeg' }, { quoted: m })
-}
-
-handler.help = ['tomp3']
-handler.tags = ['audio']
-handler.alias = ['tomp3', 'toaudio']
-handler.command = /^(mp3|audio)$/i
-
-export default handler
+import {toAudio} from '../lib/converter.js';
+const handler = async (m, {conn, usedPrefix, command}) => {
+  const q = m.quoted ? m.quoted : m;
+  const mime = (q || q.msg).mimetype || q.mediaType || '';
+  if (!/video|audio/.test(mime)) throw `*[❗مساعده❗] قم بالرد علي الفيديو اللي عايز تحولوا لصوت*`;
+  const media = await q.download();
+  if (!media) throw '*[❗𝐈𝐍𝐅𝐎❗] لقد حصل خطأ من حجم الفيديو او غيره*';
+  const audio = await toAudio(media, 'mp4');
+  if (!audio.data) throw '*لا يدعم*';
+  conn.sendMessage(m.chat, {audio: audio.data, mimetype: 'audio/mpeg'}, {quoted: m});
+};
+handler.alias = ['tomp3', 'toaudio'];
+handler.command = /^(mp3|لصوت)$/i;
+export default handler;
