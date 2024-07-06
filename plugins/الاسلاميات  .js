@@ -44,7 +44,7 @@ let str = `
 *_❍↚ حديث_*
 *╮─═══─ • ❯ ✣ ❮ • ─═══─╭*
 `.trim();
-    
+
 await conn.sendMessage(m.chat, { react: { text: '🕋', key: m.key } })
 
 conn.sendMessage(m.chat, {
