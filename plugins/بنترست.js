@@ -9,5 +9,5 @@ ${text}
 }
 handler.help = ['pinterest <keyword>']
 handler.tags = ['internet']
-handler.command = /^(pinterest|بينت|بنترست)$/i
+handler.command = /^(pinterest|بنترست)$/i
 export default handler
