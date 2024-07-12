@@ -34,7 +34,7 @@ const handler = async (m, { conn, args, command, usedPrefix }) => {
   }
 };
 
-handler.command = /^(بنترست|pinterest|pindl|pin|pinterestdl)$/i;
+handler.command = /^(بينتر|pinterest|pindl|pin|pinterestdl)$/i;
 export default handler;
 
 const getBuffer = async (url, options) => {
